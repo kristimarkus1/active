@@ -76,6 +76,3 @@ nc -zvu 192.168.1.1 53
 ```bash
 sudo lsof -i -P -n | grep LISTEN
 ```
-
-# active
-# active
