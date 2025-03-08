@@ -29,7 +29,6 @@ def scan_port(host, port, scan_type, timeout=3, verbose=False):
         return False
 
 def get_service_name(port, scan_type):
-    """Returns the service name for a given port."""
     try:
         if scan_type == "tcp":
             return socket.getservbyport(port, "tcp")
